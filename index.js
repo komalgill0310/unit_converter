@@ -1,7 +1,7 @@
 /*
 1 meter = 3.281 feet => 3.28084
 1 liter = 0.264 gallon => 0.264172
-1 kilogram = 2.204 pound => 2.20462
+1 kilogram = 2.205 pound => 2.20462
 */
 
 displayCalculatedConversion()

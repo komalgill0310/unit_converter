@@ -16,15 +16,15 @@ Welcome to the Unit Converter! 📏 This project empowers users to enter numeric
   - Kilograms to Pounds: 1 kilogram = 2.205 pounds
   - Pounds to Kilograms: 1 pound = 0.454 kilograms
 
-Additionally, the project includes a validation feature, alerting users if they attempt to convert a value below zero.
+Additionally, the project includes a validation feature, alerting users if they attempt to convert a value below zero or if no input value is entered before clicking the "Convert" button.
 
 # Website
 
-Live Version [here]()
+Live Version [here](https://unitconverter03.netlify.app/)
 
 # Preview
 
-<img src = "">
+<img src = "unitConverter.gif">
 
 ## What I've Learned
 
@@ -32,7 +32,7 @@ This project has provided valuable insights into handling user input and deliver
 
 - **Dynamic Output Generation**: Understanding how to generate output dynamically based on user-entered values.
 
-- **Unit Conversion Logic**:  Implementing logic for unit conversion, covering Length, Volume, and Mass categories.
+- **Unit Conversion Logic**: Implementing logic for unit conversion, covering Length, Volume, and Mass categories.
 
 - **Input Validation**:  Incorporating input validation to alert users when attempting to convert values below zero.
 
@@ -44,13 +44,15 @@ Explore the Unit Converter by following these steps:
 2. Open the index.html file in your browser.
 3. Enter a numeric value in the text input.
 4. Click the "Convert" button to see the converted value.
-5. Receive an alert if attempting to convert a value below zero.
+5. Receive an alert if attempting to convert a value below zero or if no input value is entered.
 
 ## Features
 
 - **Simple Interface**: An easy-to-use interface with a text input and a "Convert" button.
 
 - **Alert for Negative Values**: Users are alerted when attempting to convert a value below zero.
+
+- **Alert for No Input Value**: Users are alerted if no input value is entered before clicking the "Convert" button.
 
 - **Versatile Conversion Options**: Covering Length, Volume, and Mass, providing users with a comprehensive unit conversion experience.
 
