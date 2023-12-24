@@ -7,8 +7,9 @@
 displayCalculatedConversion()
 
 function displayCalculatedConversion(){
-document.getElementById("convert-btn").addEventListener("click", () => {
-    const inputValue = Number(document.getElementById("number-to-convert").value)
+    const inputEl = document.getElementById("number-to-convert")
+    document.getElementById("convert-btn").addEventListener("click", () => {
+    const inputValue = Number(inputEl.value)
     
     if(inputValue <= 0){
         alert("Please enter a positive number greater than 0")
@@ -20,6 +21,7 @@ document.getElementById("convert-btn").addEventListener("click", () => {
         
         document.getElementById("mass").textContent = metricImperialUnitConversion(inputValue, 2.20462, "kilos", "pounds")
        }
+       inputEl.value = ""
     })
 }
 
